@@ -25,7 +25,7 @@ void setup() {
 }
 
 void loop() {
-  unsigned long currentMillis = millis();
+  unsigned long currentMillis = micros();
 
   if (currentMillis - previousMillis3 >= intervalPin3) {
     previousMillis3 = currentMillis;
